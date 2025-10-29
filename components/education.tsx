@@ -10,6 +10,13 @@ const education = [
     gpa: "",
     icon: "🎓",
   },
+  {
+    institution: "Faculty of Sciences of Monastir (FSM)",
+    degree: "Masters Degree in Information Systems Engineering",
+    period: "2025 - 2027",
+    gpa: "",
+    icon: "🎓",
+  },
 ]
 
 export default function Education() {
