@@ -35,6 +35,34 @@ const projects = [
     demoUrl: "https://github.com/ZiedSebai/RandomChat",
     githubUrl: "https://github.com/ZiedSebai/RandomChat",
   },
+  {
+    title: "DogTok – Infinite Dog Media Feed",
+    description:
+      "Created a scrollable web app that streams endless dog images and videos using the Dog CEO API, featuring smooth infinite scroll, responsive layout, and a playful TikTok-inspired experience.",
+    image: "/dogtok.gif",
+    tags: ["React", "Vite", "JavaScript", "REST API", "CSS3"],
+    demoUrl: "https://github.com/ZiedSebai/guess-dog-breed",
+    githubUrl: "https://github.com/ZiedSebai/DogTok",
+  },
+  {
+    title: "Guess the Dog Breed",
+    description:
+      "Built an interactive quiz game with React and the Dog CEO API, where users test their knowledge by guessing dog breeds from random images, track their score, and enjoy a playful, responsive UI.",
+    image: "/guessdogbreed.png",
+    tags: ["React", "Vite", "JavaScript", "REST API", "CSS3"],
+    demoUrl: "https://guess-dog-breed.vercel.app/",
+    githubUrl: "https://github.com/ZiedSebai/guess-dog-breed",
+  },
+  {
+  title: "FinTrack+ – Personal Finance Dashboard",
+  description:
+    "Developed a full-stack finance dashboard with authentication, portfolio tracking, expense management, and data visualization. Integrated live market data from external APIs and built interactive charts for a clear view of spending and investments.",
+  image: "/fintrack.png",
+  tags: ["React", "Node.js", "Express.js", "MongoDB", "Chart.js", "REST API"],
+  demoUrl: "https://github.com/ZiedSebai/FinTrack",
+  githubUrl: "https://github.com/ZiedSebai/FinTrack",
+}
+
 ]
 
 export default function Projects() {
@@ -65,7 +93,7 @@ export default function Projects() {
                     alt={project.title}
                     width={800}
                     height={1200}
-                    className="w-full object-contain transition-transform duration-300 group-hover:scale-105"
+                    className="w-full h-full object-contain transition-transform duration-300 group-hover:scale-105"
                   />
                 </div>
               </div>
