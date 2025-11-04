@@ -9,6 +9,15 @@ import Link from "next/link"
 
 const projects = [
   {
+    title: "TrendyShop – Full-Stack E-Commerce Web App",
+    description:
+      "TrendyShop is a modern, full-stack e-commerce web application designed for seamless and secure online shopping. It features a responsive React frontend, a NestJS backend, Stripe integration for payments, Cloudinary for image uploads, and JWT authentication for secure access.",
+    image: "/trendyshop.png",
+    tags: ["React.js", "Node.js", "Nest.js", "MongoDB", "Cloudinary","Stripe", "REST API"],
+    demoUrl: "https://trendy-shop-lu5s.vercel.app/",
+    githubUrl: "https://github.com/ZiedSebai/TrendyShop",
+  },
+  {
     title: "Merch Website",
     description:
       "A responsive merchandise and clothing website built using HTML5, CSS3, and jQuery. It features a clean layout, product showcases, and interactive elements like sliders and modals, all without using modern frameworks.",
@@ -54,14 +63,14 @@ const projects = [
     githubUrl: "https://github.com/ZiedSebai/guess-dog-breed",
   },
   {
-  title: "FinTrack+ – Personal Finance Dashboard",
-  description:
-    "Developed a full-stack finance dashboard with authentication, portfolio tracking, expense management, and data visualization. Integrated live market data from external APIs and built interactive charts for a clear view of spending and investments.",
-  image: "/fintrack.png",
-  tags: ["React", "Node.js", "Express.js", "MongoDB", "Chart.js", "REST API"],
-  demoUrl: "https://github.com/ZiedSebai/FinTrack",
-  githubUrl: "https://github.com/ZiedSebai/FinTrack",
-}
+    title: "FinTrack+ – Personal Finance Dashboard",
+    description:
+      "Developed a full-stack finance dashboard with authentication, portfolio tracking, expense management, and data visualization. Integrated live market data from external APIs and built interactive charts for a clear view of spending and investments.",
+    image: "/fintrack.png",
+    tags: ["React", "Node.js", "Express.js", "MongoDB", "Chart.js", "REST API"],
+    demoUrl: "https://github.com/ZiedSebai/FinTrack",
+    githubUrl: "https://github.com/ZiedSebai/FinTrack",
+  }
 
 ]
 
