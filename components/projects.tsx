@@ -18,6 +18,24 @@ const projects = [
     githubUrl: "https://github.com/ZiedSebai/TrendyShop",
   },
   {
+    title: "FinTrack+ – Personal Finance Dashboard",
+    description:
+      "Developed a full-stack finance dashboard with authentication, portfolio tracking, expense management, and data visualization. Integrated live market data from external APIs and built interactive charts for a clear view of spending and investments.",
+    image: "/fintrack.png",
+    tags: ["React", "Node.js", "Express.js", "MongoDB", "Chart.js", "REST API"],
+    demoUrl: "https://github.com/ZiedSebai/FinTrack",
+    githubUrl: "https://github.com/ZiedSebai/FinTrack",
+  },
+  {
+    title: "QuickMaster – AI-Powered Quiz Generator",
+    description:
+      "A web application that allows users to create, customize, and play AI-generated quizzes on any topic.",
+    image: "/quiz-master.png",
+    tags: ["React", "Node.js", "Express.js", "AI"],
+    demoUrl: "https://github.com/ZiedSebai/QuizMaster",
+    githubUrl: "https://quiz-master-app-nine.vercel.app/",
+  },
+  {
     title: "Merch Website",
     description:
       "A responsive merchandise and clothing website built using HTML5, CSS3, and jQuery. It features a clean layout, product showcases, and interactive elements like sliders and modals, all without using modern frameworks.",
@@ -61,15 +79,6 @@ const projects = [
     tags: ["React", "Vite", "JavaScript", "REST API", "CSS3"],
     demoUrl: "https://guess-dog-breed.vercel.app/",
     githubUrl: "https://github.com/ZiedSebai/guess-dog-breed",
-  },
-  {
-    title: "FinTrack+ – Personal Finance Dashboard",
-    description:
-      "Developed a full-stack finance dashboard with authentication, portfolio tracking, expense management, and data visualization. Integrated live market data from external APIs and built interactive charts for a clear view of spending and investments.",
-    image: "/fintrack.png",
-    tags: ["React", "Node.js", "Express.js", "MongoDB", "Chart.js", "REST API"],
-    demoUrl: "https://github.com/ZiedSebai/FinTrack",
-    githubUrl: "https://github.com/ZiedSebai/FinTrack",
   }
 
 ]
