@@ -9,11 +9,20 @@ import Link from "next/link"
 
 const projects = [
   {
+    title: "ToolCraftr – All-in-One Online Toolbox",
+    description:
+      "ToolCraftr is a free, all-in-one online toolbox for developers and creators. It features a fast and responsive Next.js frontend, multiple utility tools like JSON Formatter, Base64 Encoder, PDF & Image tools, and developer utilities. Fully optimized for SEO and performance with Vercel hosting and structured data for rich search results.",
+    image: "/toolcraftr.png",
+    tags: ["Next.js", "React.js", "Vercel", "JavaScript", "JSON", "Developer Tools", "SEO Optimization"],
+    demoUrl: "https://www.toolcraftr.com/",
+    githubUrl: "https://www.toolcraftr.com/",
+  },
+  {
     title: "TrendyShop – Full-Stack E-Commerce Web App",
     description:
       "TrendyShop is a modern, full-stack e-commerce web application designed for seamless and secure online shopping. It features a responsive React frontend, a NestJS backend, Stripe integration for payments, Cloudinary for image uploads, and JWT authentication for secure access.",
     image: "/trendyshop.png",
-    tags: ["React.js", "Node.js", "Nest.js", "MongoDB", "Cloudinary","Stripe", "REST API"],
+    tags: ["React.js", "Node.js", "Nest.js", "MongoDB", "Cloudinary", "Stripe", "REST API"],
     demoUrl: "https://trendy-shop-lu5s.vercel.app/",
     githubUrl: "https://github.com/ZiedSebai/TrendyShop",
   },
@@ -49,7 +58,7 @@ const projects = [
     description:
       "A chess game built with Vue using the Composition API, featuring move highlighting, checkmate detection, and turn-based play. Designed with a modular, scalable codebase and plans for future enhancements like en passant and pawn promotion.",
     image: "/chessgame.png",
-    tags: ["Vue.js", "CSS3","Composition API"],
+    tags: ["Vue.js", "CSS3", "Composition API"],
     demoUrl: "https://chessvuegame.netlify.app/",
     githubUrl: "https://github.com/ZiedSebai/vue-chess-game",
   },
@@ -58,7 +67,7 @@ const projects = [
     description:
       "Built a real-time random chat app with Node.js, Express, and Socket.io, featuring user matching based on shared interests and reliable socket communication.",
     image: "/randomchat.png",
-    tags: ["Node.js", "Express.js","Socket.io","HTML5","CSS3"],
+    tags: ["Node.js", "Express.js", "Socket.io", "HTML5", "CSS3"],
     demoUrl: "https://github.com/ZiedSebai/RandomChat",
     githubUrl: "https://github.com/ZiedSebai/RandomChat",
   },
@@ -127,17 +136,17 @@ export default function Projects() {
                     </Badge>
                   ))}
                 </div>
-                  { project.features?
-                <div className="space-y-2">
-                  <h4 className="font-semibold">Key Features:</h4>
-                  <ul className="list-disc pl-5 space-y-1">
-                    {project.features.map((feature, idx) => (
-                      <li key={idx} className="text-sm">
-                        {feature}
-                      </li>
-                    ))}
-                  </ul>
-                </div>
+                {project.features ?
+                  <div className="space-y-2">
+                    <h4 className="font-semibold">Key Features:</h4>
+                    <ul className="list-disc pl-5 space-y-1">
+                      {project.features.map((feature, idx) => (
+                        <li key={idx} className="text-sm">
+                          {feature}
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
                   : ""}
                 <div className="flex gap-3 pt-2">
                   <Button size="sm">
